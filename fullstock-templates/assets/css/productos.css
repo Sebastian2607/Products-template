@@ -1,0 +1,50 @@
+.layout {
+    max-width: 928px;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+    margin: 0 auto;
+    gap: 40px 32px;
+    place-items: center;
+}
+
+.card {
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-foto img {
+    width: 270px;
+    height: 270px;
+}
+
+.card-foto {
+    background-color: #00005506;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+}
+
+.card-text {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p, h4, h3 {
+    font-size: 14px;
+}
+
+.card-header {
+    height: 544px;
+}
+
+.card-main {
+    height: 564px;
+}
+
+h3, h4 {
+    margin-bottom: -10px;
+}

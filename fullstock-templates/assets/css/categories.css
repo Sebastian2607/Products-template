@@ -1,0 +1,69 @@
+/* Resuelve estilos de seccion de categorias aqui */
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1216px;
+}
+
+
+h1{
+    margin-bottom: 8px;
+}
+
+header p{
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.card{
+    max-width: 384px;
+    width: 100%;
+} 
+
+figure img{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.stickers{
+    flex-grow: 1;
+    flex-basis: 384px;
+    max-width: 792px;
+}
+  
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+p{
+    color: #60646C;
+}
+
+strong p{
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    figure img{
+        width: 384px;
+        height: 218.67px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    html, body {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 384px;
+    }
+}
+
